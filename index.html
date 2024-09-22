@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <form action="">
+        <h1>Sudents Data Entry Form</h1>
+        <label for="nombre">Student Name: </label>
+        <input type="text" name="nombre">
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email">
+        <br>
+
+        <div>
+            <label for="radio">Gender:</label>
+            <label for="boy">boy</label>
+            <input type="radio" name="gender" value="boy">
+            <label for="girl">girl</label>
+            <input type="radio" name="gender" value="girl">
+        </div>
+
+        <div>
+            <label for="chechbox">Subjects: </label>
+            <label for="Tamil">Tamil</label>
+            <input type="checkbox" name="subjects" value="tamil">
+            <label for="telugu">Telugu</label>
+            <input type="checkbox" name="subjects" value="english">
+            <label for="english">English</label>
+            <input type="checkbox" name="subjects" value="english">
+            <label for="physics">Physics</label>
+            <input type="checkbox" name="subjects" value="physics">
+            <label for="economics">Economics</label>
+            <input type="checkbox" name="subjects" value="economics">
+        </div>
+
+        <label for="cities">City/ Town: </label>
+        <select name="cities" id="cities">
+            <option value="cdmx">Ciudad de México</option>
+            <option value="hermosillo">Hermosillo</option>
+            <option value="navojoa">Navojoa</option>
+            <option value="mexicali">Mexicali</option>
+            <option value="tijuana">Tijuana</option>
+        </select>
+        <br>
+        <label for="comments">Comments</label>
+        <br>
+        <textarea cols="32" rows="6" name="comments" id="comments"></textarea>
+        <br>
+        <input type="reset" value="Clear">
+        <input type="submit" value="Submit">
+    </form>
+
+
+</body>
+
+</html>
